@@ -27,7 +27,7 @@ export default function Contact() {
 
   
   return (
-      <div id="contact" className="container lg:w-1/2 px-4 py-2 mx-auto bg-gray-800 lg:px-20 my-8 rounded sm:w-full">
+      <div id="contact" className="container lg:w-1/2 px-4 py-2 mx-auto bg-gray-700 lg:px-20 my-8 rounded sm:w-full">
         <form 
         netlify 
         name="contact"
