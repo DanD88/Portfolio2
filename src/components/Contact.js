@@ -5,6 +5,7 @@ export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  const [confirm, setConfirm] = React.useState("");
 
   function encode(data) {
     return Object.keys(data)
@@ -21,8 +22,8 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+      .then(() => setConfirm("Message sent!"))
+      .catch((error) => console.log(error));
   }
 
   
@@ -85,6 +86,7 @@ export default function Contact() {
             Submit
           </button>
         </form>
+        <div>{confirm}</div>
 
       </div>
     );
