@@ -18,12 +18,12 @@ export default function Project_Links() {
   <div key={projectLink} className="p-2 text-center">
     <a 
     href={projectLink.link} 
-    className="title-font text-lg hover:text-sky-400 font-medium text-white mb-3">
+    className="title-font text-lg hover:text-sky-400 font-medium text-white mb-6">
       {projectLink.title}
     </a>
     <img 
     alt="gallery" 
-    className="hover:bg-red-600 circle rounded-full mt-2 	cursor:pointer" src={projectLink.image} />
+    className="bg-sky-600 circle rounded-full mt-2 	cursor:pointer" src={projectLink.image} />
   </div>
 ))}
 </div>

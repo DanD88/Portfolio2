@@ -33,7 +33,7 @@ export const projects = [
     {
         title:"Image uploader",
         subtitle:"PHP",
-        description:"Used WordPress to build a functional website. Complete witn hosting and MLA listings",
+        description:"PHP site using database to view and submit images",
         icon: require("./images/php-gallery-min.jpg"),
         link:"#",
     },

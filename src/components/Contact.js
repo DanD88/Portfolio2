@@ -28,13 +28,13 @@ export default function Contact() {
 
   
   return (
-      <div id="contact" className="container lg:w-1/2 px-4 py-2 mx-auto bg-gray-700 lg:px-20 my-8 rounded sm:w-full">
+      <div id="contact" className="container lg:w-1/2 px-4 py-2 mx-auto bg-gray-800 lg:px-20 my-8 rounded sm:w-full">
         <form 
         netlify 
         name="contact"
         onSubmit={handleSubmit}
-        className=" flex flex-col md:py-8 mt-8 md:mt-0 ">
-          <h2 className="text-white sm:text-4x1 text-3x1 mb-1 font-medium title-font uppercase text-center">
+        className="flex flex-col md:py-8 mt-8 md:mt-0 ">
+          <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
             Contact me
           </h2>
           <p className="leading-relaxed mb-5 text-center">

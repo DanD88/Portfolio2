@@ -43,16 +43,16 @@ export default function Navbar() {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px] my-8">
-              <li className="boreder-b border-gray-400 my-4 uppercase hover:opacity-75">
+              <li className="boreder-b text-lg dark:text-whitetext-lg dark:text-white border-gray-400 my-4 uppercase hover:opacity-75">
                 <a href="#skills">Skills</a>
               </li>
-              <li className="boreder-b border-gray-400 my-4 uppercase hover:opacity-75">
+              <li className="boreder-b text-lg dark:text-white border-gray-400 my-4 uppercase hover:opacity-75">
                 <a href="#projects">Projects</a>
               </li>
-              <li className="boreder-b border-gray-400 my-4 uppercase hover:opacity-75">
+              <li className="boreder-b text-lg dark:text-white border-gray-400 my-4 uppercase hover:opacity-75">
                 <a href="#contact">Contact</a>
               </li>
-              <li className="boreder-b border-gray-400 my-4 uppercase hover:opacity-75">
+              <li className="boreder-b text-lg dark:text-white border-gray-400 my-4 uppercase hover:opacity-75">
                 <a href="#resume">Resume</a>
               </li>
             </ul>
