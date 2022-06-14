@@ -13,7 +13,7 @@ export const projects = [
         title:"Movie Search",
         subtitle:"React",
         description:"In this project I used react to get data from the Open Movie Database API",
-        icon: require("./images/movie-search.jpg"),
+        icon: require("./images/movieSearch(1).png"),
         link:"https://dandavidsonportfolio.com/",
     },
     {
