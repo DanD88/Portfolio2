@@ -60,16 +60,16 @@ export default function Navbar() {
         </section>
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex mx-8">
-          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-blue-700">
+          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-sky-500">
             <a href="#skills">Skills</a>
           </li>
-          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-blue-700">
+          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-sky-500">
             <a href="#projects">Projects</a>
           </li>
-          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-blue-700">
+          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-sky-500">
             <a href="#contact">Contact</a>
           </li>
-          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-blue-700">
+          <li className="nav-item text-md uppercase leading-snug text-white hover:opacity-75 hover:text-sky-500">
             <a href="#resume">Resume</a>
           </li>
         </ul>
