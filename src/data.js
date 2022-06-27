@@ -28,7 +28,7 @@ export const projects = [
         subtitle:"Wordpress",
         description:"A simple landing page, using HTML, CSS and JavaScript for functionality",
         icon: require("./images/Landing-Page.jpg"),
-        link:"https://dandavidsonportfolio.com/"
+        link:"https://landing-page1-five.vercel.app/"
     },
     {
         title:"Image uploader",
