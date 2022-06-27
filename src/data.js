@@ -38,11 +38,11 @@ export const projects = [
         link:"#",
     },
     {
-        title:"Wordpress website for a real estate agent",
-        subtitle:"Wordpress",
-        description:"Used WordPress to build a functional website. Complete witn hosting and MLA listings",
-        icon: require("./images/Couve-Living-min.jpg"),
-        link:"https://dandavidsonportfolio.com/",
+        title:"QR code card",
+        subtitle:"Flexbox",
+        description:"Built with Flexbox",
+        icon: require("./images/qrCode.png"),
+        link:"https://qr-code-card-pi.vercel.app/",
     }
 
     
