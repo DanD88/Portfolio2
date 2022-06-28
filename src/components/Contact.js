@@ -22,7 +22,7 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => setConfirm("Message sent!"))
+      .then(() => setConfirm("Message was sent!"))
       .catch((error) => console.log(error));
   }
 
@@ -37,9 +37,11 @@ export default function Contact() {
           <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
             Contact me
           </h2>
+          
           <p className="leading-relaxed mb-5 text-center">
             Looking forward to hearing from you. I am available for hire!
           </p>
+          
           <div className="relative mb-4">
             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-200"> 
             Name
@@ -51,6 +53,7 @@ export default function Contact() {
             className="md-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => setName(e.target.value)}
             placeholder="What's your name?"
+            required
             />
           </div>
           <div className="relative mb-4">
@@ -64,6 +67,7 @@ export default function Contact() {
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => setEmail(e.target.value)} 
             placeholder="What's your email?"
+            required
             />
           </div>
           <div className="relative mb-4">
@@ -77,6 +81,7 @@ export default function Contact() {
             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Leave a comment..."
+            required
             />
           </div>
           <button 
@@ -85,8 +90,9 @@ export default function Contact() {
           >
             Submit
           </button>
+          <div className="text-center text-white  ">{confirm}</div>
         </form>
-        <div>{confirm}</div>
+        
 
       </div>
     );
