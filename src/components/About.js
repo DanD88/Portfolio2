@@ -16,7 +16,7 @@ function About() {
             Adaptable recent college graduate with an Associate's of Technology
             in Web Development. With over 3 years of experience in Web
             Development, I am the perfect fit for your project. I specialize in
-            building websites that will increase your businesses content and
+            building websites that will increase your business content and
             sales leads. With the skills needed to enhance your online presence
             to help improve the future of your business.
           </p>
