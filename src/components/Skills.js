@@ -15,43 +15,43 @@ function Skills() {
           <div className="skill-icons place-content-center flex flex-row mb-10">
             <div>
             <img
-                 className="flex"
-                 alt="hero"
+                 className="flex w-auto h-auto"
+                 alt="html logo"
                  src={require('./../images/icons/icons8-html-5.png')}
                />
             </div>
             <div>
             <img
-                  className="flex  "
-                  alt="hero"
+                  className="flex w-auto h-auto"
+                  alt="css logo"
                   src={require('./../images/icons/icons8-css3.png')}
                 />
             </div>
             <div>
             <img
-                  className="flex "
-                  alt="hero"
+                  className="flex w-auto h-auto"
+                  alt="javascript logo"
                   src={require('./../images/icons/icons8-javascript.png')}
                 />
             </div>
             <div>
             <img
-                  className="flex"
-                  alt="hero"
+                  className="flex w-auto h-auto"
+                  alt="react logo"
                   src={require('./../images/icons/icons8-react.png')}
                 />
             </div>
             <div>
             <img
-                  className="flex"
-                  alt="hero"
+                  className="flex  w-auto h-auto"
+                  alt="wordpress logo"
                   src={require('./../images/icons/icons8-wordpress.png')}
                 />
             </div>
             <div>
             <img
-                  className="flex"
-                  alt="hero"
+                  className="flex  w-auto h-auto"
+                  alt="bootstrap logo"
                   src={require('./../images/icons/icons8-bootstrap.png')}
                 />
             </div>

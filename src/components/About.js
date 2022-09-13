@@ -37,9 +37,9 @@ function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded w-auto h-auto"
             alt="hero"
-            src={require('./../images/Profile_pic1.jpg')}
+            src={require('./../images/profile_pic2.png')}
           />
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function Projects() {
                   <a href={project.link}>
                   <img
                     alt="gallery"
-                    className="w-full mb-4 rounded-t-lg"
+                    className="w-full h-auto mb-4 rounded-t-lg"
                     src={project.icon}
                   />
                   </a>
