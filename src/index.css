@@ -11,3 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(17, 24, 39);
 }
+
+img {
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
