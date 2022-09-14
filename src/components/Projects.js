@@ -21,9 +21,9 @@ export default function Projects() {
               <div key={project} className="p-2 sm:w-1/2 w-full">
                 <div className="mb-4 w-full h-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 bg-gray-800 rounded-lg border-gray-200 shadow-md">
                   <a href={project.link}>
-                  <img
+                  <img width={462} height={263}
                     alt="gallery"
-                    className="w-full h-auto mb-4 rounded-t-lg"
+                    className="mb-4 rounded-t-lg"
                     src={project.icon}
                   />
                   </a>

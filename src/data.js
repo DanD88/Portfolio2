@@ -6,14 +6,14 @@ export const projects = [
         title:"A website and blog about fixed gear bikes",
         subtitle:"HTML and Tailwind",
         description:"For this website I used html and Tailwind",
-        icon: require("./images/fixieplus_snip-1.png"),
+        icon: require("./images/fixieplus.png"),
         link:"https://fixieplus.com/"
     },
     {
         title:"Movie Search",
         subtitle:"React",
         description:"In this project I used react to get data from the Open Movie Database API",
-        icon: require("./images/movieApp_703x400.png"),
+        icon: require("./images/movieApp.png"),
         link:"https://movie-db-gules.vercel.app/",
     },
     {
@@ -31,14 +31,14 @@ export const projects = [
         link:"https://landing-page1-five.vercel.app/"
     },
     {
-        title:"Image uploader",
+        title:"Image Uploader",
         subtitle:"PHP",
         description:"PHP site using database to view and submit images",
         icon: require("./images/php-gallery-min.jpg"),
         link:"#",
     },
     {
-        title:"QR code card",
+        title:"QR Code Card",
         subtitle:"Flexbox",
         description:"Built with Flexbox",
         icon: require("./images/qrCode.png"),

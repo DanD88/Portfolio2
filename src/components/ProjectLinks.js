@@ -21,7 +21,7 @@ export default function Project_Links() {
     className="title-font text-lg hover:text-sky-400 font-medium text-white mb-6">
       {projectLink.title}
     </a>
-    <img 
+    <img width={80} height={80}
     alt="gallery" 
     className="bg-sky-600 circle rounded-full mt-2 	cursor:pointer" src={projectLink.image} />
   </div>
