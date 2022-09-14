@@ -8,7 +8,7 @@ function Footer() {
         <footer className="p-4 bg-gray-800 rounded-lg shadow md:px-6 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a href="#about" className="flex items-center mb-4 sm:mb-0">
-              <img src={require('./../images/logo.png')} alt="logo"></img>
+              <img width={50} height={50} src={require('./../images/logo.png')} alt="logo"></img>
               <span className="self-center text-2x1 font-semibold whitespace-nowrap dark:text-white px-4 hover:text-sky-500">
                 Daniel Davidson
               </span>
