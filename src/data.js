@@ -5,7 +5,7 @@ export const projects = [
     {
         title:"A website and blog about fixed gear bikes",
         subtitle:"HTML and Tailwind",
-        description:"For this website I used html and Tailwind",
+        description:"For this website I used HTML and Tailwind",
         icon: require("./images/fixieplus.png"),
         link:"https://fixieplus.com/"
     },

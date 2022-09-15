@@ -62,10 +62,10 @@ function Skills() {
               <div key={skill} className="p-2 sm:w-1/2 w-full">
                <div className="px-6 py-8 relative z-10 w-full h-full bg-gray-800 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700">
                   
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-lg font-bold text-white mb-3">
                     {skill.title}
                   </h1>
-                  <p className="leading-relaxed">{skill.description}</p>
+                  <p className="leading-relaxed text-white">{skill.description}</p>
                 </div>
               </div>
             ))}

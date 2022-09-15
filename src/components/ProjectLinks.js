@@ -5,7 +5,7 @@ export default function Project_Links() {
   return (
     <div>
  
-        <div className="text-center w-full">
+        <div className="text-center w-full bg-blue-700 p-4">
           
           <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-white">
             More Projects

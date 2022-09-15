@@ -5,9 +5,9 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-4">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-white bg-blue-700 p-4">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
+        <div className="flex flex-col w-full mb-4 bg-blue-700 p-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-white">
             My Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -19,7 +19,7 @@ export default function Projects() {
           <div className="flex flex-wrap -mx-8">
             {projects.map((project) => (
               <div key={project} className="p-2 sm:w-1/2 w-full">
-                <div className="mb-4 w-full h-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 bg-gray-800 rounded-lg border-gray-200 shadow-md">
+                <div className="mb-4 w-full h-full bg-white rounded-lg border shadow-md dark:bg-gray-800 dark:border-gray-700 bg-gray-800 rounded-lg  shadow-md">
                   <a href={project.link}>
                   <img width={462} height={263}
                     alt="gallery"
@@ -34,7 +34,7 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed text-gray-300">{project.description}</p>
                 </div>
               </div>
             ))}
