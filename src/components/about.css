@@ -1,0 +1,20 @@
+.about-section {
+    background-image: url("../images/header-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.about-info {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+ 
+
+
+
+
+  text-align: center;
+}

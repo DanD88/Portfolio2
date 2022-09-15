@@ -12,7 +12,7 @@ body {
   background-color: rgb(17, 24, 39);
 }
 
-img {
-  width: 100%; /* or max-width: 100%; */
+/* img {
+  width: auto;
   height: auto;
-}
+} */

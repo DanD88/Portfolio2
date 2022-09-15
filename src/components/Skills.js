@@ -6,7 +6,7 @@ function Skills() {
   return (
       <section id="skills">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-          <div className="text-center mb-10">
+          <div className="text-center mb-10 bg-blue-700 p-4">
             <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-white">
               Skills &amp; Technologies
             </h1>
