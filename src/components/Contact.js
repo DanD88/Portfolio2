@@ -43,42 +43,42 @@ export default function Contact() {
           </p>
           
           <div className="relative mb-4">
-            <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-800 dark:text-gray-800"> 
+            <label htmlFor="name" className="block mb-2 text-md font-medium text-gray-900 dark:text-gray-900"> 
             Name
             </label> 
             <input
             type="text"
             id="name"
             name="name"
-            className="text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="text-black text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white dark:border-gray-600 dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => setName(e.target.value)}
             placeholder="What's your name?"
             required
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-800"> 
+            <label htmlFor="email" className="leading-7 text-md text-gray-800"> 
             Email
             </label> 
             <input
             type="email"
             id="email"
             name="email"
-            className="text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-900 dark:focus:border-blue-900"
+            className="text-black text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white dark:border-gray-100 dark:placeholder-gray-800 dark:focus:ring-blue-900 dark:focus:border-blue-900"
             onChange={(e) => setEmail(e.target.value)} 
             placeholder="What's your email?"
             required
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="message" className="leading-7 text-sm text-gray-800"> 
+            <label htmlFor="message" className="leading-7 text-md text-gray-800"> 
             Message
             </label> 
             <textarea
             type="text"
             id="message"
             name="message"
-            className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="block p-2.5 w-full text-md text-black bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 bg-white dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Leave a comment..."
             required
