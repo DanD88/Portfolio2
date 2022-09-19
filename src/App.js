@@ -16,7 +16,7 @@ import './index'
 
 function App() {
   return (
-      <main className="text-gray-400 bg-gray-900 bold-font">
+      <main className="text-gray-400 bg-gray-100 bold-font">
         <Navbar />
         <Hero />
         <About />

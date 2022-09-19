@@ -5,7 +5,7 @@ function Footer() {
   return (
       <div>
 
-        <footer className="p-4 bg-gray-800 rounded-lg shadow md:px-6 md:py-8">
+        <footer className="p-4 bg-gray-900 shadow-md md:px-6 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a href="#about" className="flex items-center mb-4 sm:mb-0">
               <img width={50} height={50} src={require('./../images/logo.png')} alt="logo"></img>

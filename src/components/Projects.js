@@ -4,10 +4,10 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-400 bg-gray-200 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
-        <div className="flex flex-col w-full mb-4 bg-blue-700 p-4">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-white">
+        <div className="flex flex-col w-full mb-4 p-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-gray-800">
             My Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -19,7 +19,7 @@ export default function Projects() {
           <div className="flex flex-wrap -mx-8">
             {projects.map((project) => (
               <div key={project} className="p-2 sm:w-1/2 w-full">
-                <div className="mb-4 w-full h-full bg-white rounded-lg border shadow-md dark:bg-gray-800 dark:border-gray-700 bg-gray-800 rounded-lg  shadow-md">
+                <div className="mb-4 w-full h-full bg-gray-100 rounded-lg shadow-lg dark:bg-gray-100 dark:border-gray-700 bg-gray-100 rounded-lg">
                   <a href={project.link}>
                   <img width={462} height={263}
                     alt="gallery"
@@ -27,14 +27,14 @@ export default function Projects() {
                     src={project.icon}
                   />
                   </a>
-                  <h2 className="text-lg font-semibold text-blue-500 text-center">
+                  <h2 className="text-lg underline font-semibold text-gray-900 text-center">
                     {project.subtitle}
 
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-lg text-gray-900 font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed text-gray-300">{project.description}</p>
+                  <p className="leading-relaxed text-gray-900">{project.description}</p>
                 </div>
               </div>
             ))}

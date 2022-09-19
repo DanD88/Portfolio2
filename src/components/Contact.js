@@ -28,57 +28,57 @@ export default function Contact() {
 
   
   return (
-      <div id="contact" className="container lg:w-1/2 px-4 py-2 mx-auto bg-gray-800 lg:px-20 my-8 rounded sm:w-full">
+      <div id="contact" className="container lg:w-1/2 px-4 py-2 mx-auto bg-gray-200 lg:px-20 my-8 rounded-lg shadow-lg sm:w-full">
         <form 
         netlify 
         name="contact"
         onSubmit={handleSubmit}
         className="flex flex-col md:py-8 mt-8 md:mt-0 ">
-          <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
+          <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900 text-center">
             Contact me
           </h2>
           
-          <p className="leading-relaxed mb-5 text-center">
+          <p className="leading-relaxed mb-5 text-gray-800 text-center">
             Looking forward to hearing from you. I am available for hire!
           </p>
           
           <div className="relative mb-4">
-            <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-200"> 
+            <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-800 dark:text-gray-800"> 
             Name
             </label> 
             <input
             type="text"
             id="name"
             name="name"
-            className="md-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => setName(e.target.value)}
             placeholder="What's your name?"
             required
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-200"> 
+            <label htmlFor="email" className="leading-7 text-sm text-gray-800"> 
             Email
             </label> 
             <input
             type="email"
             id="email"
             name="email"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-900 dark:focus:border-blue-900"
             onChange={(e) => setEmail(e.target.value)} 
             placeholder="What's your email?"
             required
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="message" className="leading-7 text-sm text-gray-200"> 
+            <label htmlFor="message" className="leading-7 text-sm text-gray-800"> 
             Message
             </label> 
             <textarea
             type="text"
             id="message"
             name="message"
-            className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-800 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Leave a comment..."
             required

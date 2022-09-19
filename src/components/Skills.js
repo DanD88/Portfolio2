@@ -6,8 +6,8 @@ function Skills() {
   return (
       <section id="skills">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-          <div className="text-center mb-10 bg-blue-700 p-4">
-            <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-white">
+          <div className="text-center mb-10 p-4">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font my-4 text-gray-800">
               Skills &amp; Technologies
             </h1>
 
@@ -60,12 +60,12 @@ function Skills() {
           <div className="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
             {skills.map((skill) => (
               <div key={skill} className="p-2 sm:w-1/2 w-full">
-               <div className="px-6 py-8 relative z-10 w-full h-full bg-gray-800 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700">
+               <div className="px-6 py-8 relative z-10 w-full h-full bg-gray-800 rounded-lg border-gray-900 shadow-lg bg-gray-100 dark:border-gray-300 dark:hover:bg-gray-200">
                   
-                  <h1 className="title-font text-lg font-bold text-white mb-3">
+                  <h1 className="title-font text-lg font-bold text-black mb-3">
                     {skill.title}
                   </h1>
-                  <p className="leading-relaxed text-white">{skill.description}</p>
+                  <p className="leading-relaxed text-black">{skill.description}</p>
                 </div>
               </div>
             ))}
