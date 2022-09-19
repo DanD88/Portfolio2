@@ -60,7 +60,7 @@ function Skills() {
           <div className="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
             {skills.map((skill) => (
               <div key={skill} className="p-2 sm:w-1/2 w-full">
-               <div className="px-6 py-8 relative z-10 w-full h-full bg-gray-800 rounded-lg border-gray-900 shadow-lg bg-gray-100 dark:border-gray-300 dark:hover:bg-gray-200">
+               <div className="px-6 py-8 relative z-10 w-full h-full bg-gray-100 rounded-lg shadow-lg bg-gray-100 dark:hover:bg-gray-200">
                   
                   <h1 className="title-font text-lg font-bold text-black mb-3">
                     {skill.title}
